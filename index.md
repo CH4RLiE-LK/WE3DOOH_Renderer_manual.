@@ -180,7 +180,30 @@ This section controls automatic compositor node generation.
   - This action cannot be undone
 - Only proceed if you are sure
 
-### Output Structure
 
-Generated outputs follow this structure:
+## Recommended Workflow
+
+1. Switch render engine to **Cycles**
+2. Set render quality using the top section
+3. Configure outputs per View Layer in **Layer Manager**
+4. Enable **Compositor**
+5. Set EXR color space (or use **Auto Detect**)
+6. Click **Setup Compositor**
+7. Add any extra passes manually if required
+8. Render
+
+---
+
+## Final Notes
+
+- This addon is designed for speed and consistency
+- It does not replace manual compositing knowledge
+- Treat the generated compositor as a base setup
+- Always review the node tree before final renders
+
+Do **not distribute or share** outside the company.
+
+### License & Distribution
+
+© CHaRLiE @WE3DOOH
 
