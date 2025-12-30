@@ -137,6 +137,9 @@ This section controls automatic compositor node generation.
 - Controls the color space used for EXR outputs
 - If you want the EXR output to match the current scene color space:
   - Click **Auto Detect**
+    
+  ![AutoDetect](Images/AutoDetectColorSpace.png)
+
   - The addon will automatically detect the active scene color settings and apply the correct EXR color space
 - You can also manually select:
   - Standard
@@ -154,6 +157,10 @@ This section controls automatic compositor node generation.
 
 > The compositor setup created by this addon includes only the **Image** pass.  
 > If you need **Cryptomatte**, **Depth**, **Normal**, **Custom AOVs**, or **Multilayer EXRs**, you must manually add and connect those passes in the compositor after the initial node generation.
+
+![MultiPasses](Images/MultiplePasses.png)
+
+![MultiLayer](Images/OpenEXRMultiLayer.png)
 
 ### Setup Compositor
 
